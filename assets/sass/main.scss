@@ -1,0 +1,26 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+
+$white: #fff;
+$darkblue: #3A4793;
+$lightblue: #25B3EC;
+$lightpurple: #9787EE;
+$yellow: #FFBF3E;
+
+*, h1, h2, h3, h4, h5, h6, p, span, div {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+html,body {
+  background: #EDEDED;
+  height: 100%;
+  overflow: hidden;
+}
+
+i {
+  float: right;
+}
+
+@import "home";
+@import "all-tasks";

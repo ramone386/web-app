@@ -1,0 +1,37 @@
+#home {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/1920px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  .welcome-box {
+    background: rgba(0, 0, 0, .7);
+    padding: 40px 15px;
+    h1{
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      font-weight: 100;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+    }
+
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 15px 0px;
+    &.lightblue {
+      font-size: 25px;
+      background: $lightblue;
+    }
+  }
+}
